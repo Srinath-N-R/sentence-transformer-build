@@ -18,7 +18,8 @@ This repository demonstrates:
 ├── Train_MultiTask_Model.ipynb   # Notebook for multi-task training (intent + NER)
 ├── enums.py                      # All constants used in this module
 ├── requirements.txt              # Python dependencies
-└── README.md                     # Project overview and instructions
+├── WriteUp.pdf                   # Brief Write Up explaing Task 3 and Task 4 design decisions
+└── README.md                     # Project overview
 ```
 
 ## Setup
