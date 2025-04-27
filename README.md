@@ -1,4 +1,4 @@
-# ML Apprentice: Sentence Transformer & Multi-Task Learning
+# Sentence Transformer & Multi-Task Learning
 
 ## Overview
 This repository demonstrates:
