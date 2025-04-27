@@ -19,6 +19,8 @@ This repository demonstrates:
 ├── enums.py                      # All constants used in this module
 ├── requirements.txt              # Python dependencies
 ├── WriteUp.pdf                   # Brief Write Up explaing Task 3 and Task 4 design decisions
+├── best_encoder.pt               # Best Sentence Transformer Checkpoint
+├── best_multitask_model.pt       # Brief Multi Task Model Checkpoint
 └── README.md                     # Project overview
 ```
 
