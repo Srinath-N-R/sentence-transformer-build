@@ -16,6 +16,7 @@ This repository demonstrates:
 ├── Pretrain_SentenceTransformer.ipynb   # Notebook for backbone pretraining
 ├── Tokenizer-walkthrough.ipynb   # Notebook showing BPE training & usage
 ├── Train_MultiTask_Model.ipynb   # Notebook for multi-task training (intent + NER)
+├── enums.py                      # All constants used in this module
 ├── requirements.txt              # Python dependencies
 └── README.md                     # Project overview and instructions
 ```
