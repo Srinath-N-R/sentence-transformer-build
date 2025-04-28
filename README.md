@@ -73,9 +73,7 @@ This repository demonstrates:
 - **Frozen Entire Network**: Useful for feature extraction; only heads trained.  
 - **Frozen Backbone**: Fine-tune heads quickly when backbone already strong.  
 - **Frozen One Head**: Freeze easier task head to let other task-specific gradients dominate.  
-- **Transfer Learning**:  
-  - Start from pre-trained transformer (e.g., BERT / custom triplet‑trained).  
-  - Freeze lower layers; fine-tune top layers + heads with discriminative LRs.
+
 
 ### Task 4: Training Loop Implementation
 - **Data Handling**: Collate variable-length BPE token sequences and aligned labels.  
