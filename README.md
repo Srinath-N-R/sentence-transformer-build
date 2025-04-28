@@ -70,9 +70,9 @@ This repository demonstrates:
 - **Architecture Change**: Combined two heads sharing the same encoder output.
 
 ### Task 3: Training Considerations
-- **Frozen Entire Network**: Useful for feature extraction; only heads trained.  
 - **Frozen Backbone**: Fine-tune heads quickly when backbone already strong.  
-- **Frozen One Head**: Freeze easier task head to let other task-specific gradients dominate.  
+- **Frozen One Head**: Freeze easier task head to let other task-specific gradients dominate.
+- **Finetune whole backbone with discriminative LR**: Unfreeze the whole backbone, but finetune it with a miniscule LR.
 
 
 ### Task 4: Training Loop Implementation
