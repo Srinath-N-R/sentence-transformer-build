@@ -1,0 +1,28 @@
+# Ignore checkpoints and cache
+.ipynb_checkpoints/
+__pycache__/
+
+# Ignore PyTorch model files
+*.pt
+
+# Ignore Python cache files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment files
+*.env
+
+# Ignore tokenized data and artifacts
+*.json
+
+# Ignore PDF and writeups (optional if you don't want to track updated PDFs)
+*.pdf
+
+# Ignore system files
+.DS_Store
+
+# Optional: If you have virtual environments in the folder
+venv/
+env/
+
